@@ -46,7 +46,7 @@ namespace QuieroPizza.BL
         public Producto ObtenerProductos(int id)
         {
             var producto = _contexto.Productos
-                .Include("categoria").FirstOrDefault(p => p.Id == id);
+                .Include("Categoria").FirstOrDefault(p => p.Id == id);
 
             return producto;
         }
