@@ -13,7 +13,7 @@ namespace QuieroPizza.BL
 
         public CategoriasBL()
         {
-            _contexto = new BL.Contexto();
+            _contexto = new Contexto();
             ListadeCategorias = new List<Categoria>();
         }
 
