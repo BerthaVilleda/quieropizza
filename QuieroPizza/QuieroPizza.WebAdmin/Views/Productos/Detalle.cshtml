@@ -18,9 +18,9 @@
             @Html.DisplayFor(model => model.Descripcion)
         </dd>
 
-        <dd>
+        <dt>
             @Html.DisplayNameFor(model => model.Categoria)
-        </dd>
+        </dt>
 
         <dd>
             @Html.DisplayFor(model => model.Categoria.Descripcion)
@@ -32,6 +32,14 @@
 
         <dd>
             @Html.DisplayFor(model => model.Precio)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Activo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Activo)
         </dd>
 
     </dl>
